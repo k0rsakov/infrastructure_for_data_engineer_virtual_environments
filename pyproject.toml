@@ -5,7 +5,7 @@ target-version = "py312"
 name = "infrastructure_for_data_engineer_virtual_environments"
 version = "0.0.1"
 description = ""
-authors = ["Ivan Korsakov <korsakov.iyu@gmail.com>"]
+authors = ["Ivan Korsakov <k0rsakov@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 package-mode = false
@@ -21,8 +21,8 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.dependencies]
 python = "^3.12.1"
-Faker = "^30.3.0"
+Faker = "^33.0.0"
 
 [tool.poetry.group.dev.dependencies]
 python = "^3.12.1"
-Faker = "^30.3.0"
+Faker = "^33.0.0"
