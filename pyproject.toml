@@ -22,7 +22,6 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.dependencies]
 python = "^3.12.1"
 Faker = "^33.0.0"
-pendulum = "3.0.0"
 
 [tool.poetry.group.dev.dependencies]
 python = "^3.12.1"
