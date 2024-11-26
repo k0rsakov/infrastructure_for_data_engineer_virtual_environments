@@ -1,6 +1,6 @@
 # Инфраструктура для Data-Engineer виртуальные окружения
 
-Статья на [habr](https://habr.com/ru/articles/000000/).
+Статья на [habr](https://habr.com/ru/articles/861412/).
 
 ## Настройка окружения:
 
@@ -15,18 +15,13 @@ pip install --upgrade pip
 ### poetry
 
 ```bash
-python3.12 -m venv venv && \
-source venv/bin/activate && \
+python3.12 -m venv poetry_venv && \
+source poetry_venv/bin/activate && \
 pip install --upgrade pip && \
 pip install poetry && \
 poetry lock && \
 poetry install
 ```
-
-### uv
-
-
-
 ___
 
 Если вам необходима консультация/менторство/мок-собеседование и другие вопросы по дата-инженерии, то вы можете
