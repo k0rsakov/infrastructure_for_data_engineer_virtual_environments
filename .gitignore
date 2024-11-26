@@ -129,6 +129,7 @@ venv/
 venv1/
 venv2/
 poetry_venv/
+uv_venv/
 ENV/
 env.bak/
 venv.bak/
