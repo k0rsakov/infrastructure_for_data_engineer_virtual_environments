@@ -1,0 +1,28 @@
+# Assume Python 3.12.
+target-version = "py312"
+
+[tool.poetry]
+name = "infrastructure_for_data_engineer_virtual_environments"
+version = "0.0.1"
+description = ""
+authors = ["Ivan Korsakov <korsakov.iyu@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.urls]
+"Homepage" = ""
+"Bug Tracker" = ""
+"PyPi" = ""
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.12.1"
+Faker = "^30.3.0"
+
+[tool.poetry.group.dev.dependencies]
+python = "^3.12.1"
+Faker = "^30.3.0"
